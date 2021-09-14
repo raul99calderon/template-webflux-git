@@ -4,4 +4,8 @@ public class C2 {
     public String getHelloWorld() {
         return "HelloWorld";
     }
+
+    public int getNum(){
+        return 1;
+    }
 }
