@@ -15,7 +15,7 @@ jobs:
       - name: Unit & Integration Tests
         run: mvn -B verify # -B: --batch-mode
       - name: Slack WebHook
-        if: always()
+        if: failure()
         uses: 8398a7/action-slack@v3
         with:
           status: ${{ job.status }}
