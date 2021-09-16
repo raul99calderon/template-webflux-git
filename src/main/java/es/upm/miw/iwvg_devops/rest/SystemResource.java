@@ -29,5 +29,5 @@ public class SystemResource {
     public String applicationInfo() {
         return "{\"version\":\"" + this.applicationName + "::" +
                 this.buildVersion + "::" + this.buildTimestamp + "\"}";
-    }
+    } //
 }
