@@ -8,7 +8,7 @@ class C2Test {
 
     @Test
     void getHelloWorld() {
-        assertEquals(new C2().getHelloWorld(),"HelloWorld");
+        assertEquals(new C2().getHelloWorld(),"Hello World");
     }
 
     @Test
